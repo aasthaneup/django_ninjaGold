@@ -14,7 +14,7 @@ def root(request):
     if 'earned' not in request.session:
         request.session['earned'] = '0'
     if 'cmtcolor' not in request.session:
-        request.session['cmtcolor'] = 'beige'
+        request.session['cmtcolor'] = 'rgb(81, 81, 77)'
     if 'moves' not in request.session:
         request.session['moves'] = '0'
     if 'tm' not in request.session:
